@@ -1,0 +1,927 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping cart</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/shopping_cart/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/shopping_cart/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 我的购物车+整个商品结算栏 (组合) -->
+      <div id="u1381" class="ax_default" data-label="我的购物车+整个商品结算栏" data-left="20" data-top="194" data-width="1301" data-height="609">
+
+        <!-- 工具2 (图片) -->
+        <div id="u1382" class="ax_default image1" data-label="工具2">
+          <img id="u1382_img" class="img " src="images/list_of_goods/工具2_u1193.jpg"/>
+        </div>
+
+        <!-- 购物车页商品清单模块 (矩形) -->
+        <div id="u1383" class="ax_default shape" data-label="购物车页商品清单模块">
+          <img id="u1383_img" class="img " src="images/shopping_cart/购物车页商品清单模块_u1383.png"/>
+        </div>
+
+        <!-- 购物车页商品清单模块 (矩形) [footnote] -->
+        <div id="u1383_ann" class="annotation"></div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1384" class="ax_default shape">
+          <img id="u1384_img" class="img " src="images/shopping_cart/u1384.png"/>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1385" class="ax_default html_button">
+          <input id="u1385_input" type="submit" value="结算" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (表格) -->
+        <div id="u1386" class="ax_default table">
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1387" class="ax_default table_cell">
+            <img id="u1387_img" class="img " src="images/shopping_cart/u1387.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1388" class="ax_default table_cell">
+            <img id="u1388_img" class="img " src="images/shopping_cart/u1388.png"/>
+            <div id="u1388_text" class="text ">
+              <p><span>商品信息</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1389" class="ax_default table_cell">
+            <img id="u1389_img" class="img " src="images/shopping_cart/u1389.png"/>
+            <div id="u1389_text" class="text ">
+              <p><span>单价</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1390" class="ax_default table_cell">
+            <img id="u1390_img" class="img " src="images/shopping_cart/u1389.png"/>
+            <div id="u1390_text" class="text ">
+              <p><span>数量</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1391" class="ax_default table_cell">
+            <img id="u1391_img" class="img " src="images/shopping_cart/u1389.png"/>
+            <div id="u1391_text" class="text ">
+              <p><span>金额</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1392" class="ax_default table_cell">
+            <img id="u1392_img" class="img " src="images/shopping_cart/u1392.png"/>
+            <div id="u1392_text" class="text ">
+              <p><span>操作</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (复选框) -->
+        <div id="u1393" class="ax_default _复选框">
+          <label for="u1393_input" style="position: absolute; left: 0px;">
+            <div id="u1393_text" class="text ">
+              <p><span>全选</span></p>
+            </div>
+          </label>
+          <input id="u1393_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (表格) -->
+        <div id="u1394" class="ax_default table">
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1395" class="ax_default table_cell">
+            <img id="u1395_img" class="img " src="images/shopping_cart/u1395.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1396" class="ax_default table_cell">
+            <img id="u1396_img" class="img " src="images/shopping_cart/u1396.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1397" class="ax_default table_cell">
+            <img id="u1397_img" class="img " src="images/shopping_cart/u1397.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1398" class="ax_default table_cell">
+            <img id="u1398_img" class="img " src="images/shopping_cart/u1397.png"/>
+          </div>
+
+          <!-- 金额 (单元格) -->
+          <div id="u1399" class="ax_default table_cell" data-label="金额">
+            <img id="u1399_img" class="img " src="images/shopping_cart/u1397.png"/>
+            <div id="u1399_text" class="text ">
+              <p><span>￥75.6</span></p>
+            </div>
+          </div>
+
+          <!-- 金额 (单元格) [footnote] -->
+          <div id="u1399_ann" class="annotation"></div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1400" class="ax_default table_cell">
+            <img id="u1400_img" class="img " src="images/shopping_cart/u1400.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1401" class="ax_default table_cell">
+            <img id="u1401_img" class="img " src="images/shopping_cart/u1401.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1402" class="ax_default table_cell">
+            <img id="u1402_img" class="img " src="images/shopping_cart/u1402.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1403" class="ax_default table_cell">
+            <img id="u1403_img" class="img " src="images/shopping_cart/u1403.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1404" class="ax_default table_cell">
+            <img id="u1404_img" class="img " src="images/shopping_cart/u1403.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1405" class="ax_default table_cell">
+            <img id="u1405_img" class="img " src="images/shopping_cart/u1403.png"/>
+            <div id="u1405_text" class="text ">
+              <p><span>￥37.80</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1406" class="ax_default table_cell">
+            <img id="u1406_img" class="img " src="images/shopping_cart/u1406.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u1407" class="ax_default text_field1">
+          <input id="u1407_input" type="text" value="2" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1408" class="ax_default paragraph">
+          <img id="u1408_img" class="img " src="images/shopping_cart/u1408.png"/>
+          <div id="u1408_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">+</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1409" class="ax_default paragraph">
+          <img id="u1409_img" class="img " src="images/shopping_cart/u1408.png"/>
+          <div id="u1409_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1410" class="ax_default html_button">
+          <input id="u1410_input" type="submit" value="放入收藏夹" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1411" class="ax_default html_button">
+          <input id="u1411_input" type="submit" value="删除" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1412" class="ax_default shape">
+          <img id="u1412_img" class="img " src="images/shopping_cart/u1412.png"/>
+        </div>
+
+        <!-- Unnamed (复选框) -->
+        <div id="u1413" class="ax_default _复选框">
+          <label for="u1413_input" style="position: absolute; left: 0px;">
+            <div id="u1413_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </label>
+          <input id="u1413_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (复选框) -->
+        <div id="u1414" class="ax_default _复选框">
+          <label for="u1414_input" style="position: absolute; left: 0px;">
+            <div id="u1414_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </label>
+          <input id="u1414_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1415" class="ax_default paragraph">
+          <img id="u1415_img" class="img " src="images/shopping_cart/u1415.png"/>
+          <div id="u1415_text" class="text ">
+            <p><span>用友上海旗舰店</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (复选框) -->
+        <div id="u1416" class="ax_default _复选框">
+          <label for="u1416_input" style="position: absolute; left: 0px;">
+            <div id="u1416_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </label>
+          <input id="u1416_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1417" class="ax_default paragraph">
+          <img id="u1417_img" class="img " src="images/shopping_cart/u1417.png"/>
+          <div id="u1417_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">asw超强电钻</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u1418" class="ax_default text_field1">
+          <input id="u1418_input" type="text" value="1" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1419" class="ax_default paragraph">
+          <img id="u1419_img" class="img " src="images/shopping_cart/u1408.png"/>
+          <div id="u1419_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">+</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1420" class="ax_default paragraph">
+          <img id="u1420_img" class="img " src="images/shopping_cart/u1408.png"/>
+          <div id="u1420_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1421" class="ax_default html_button">
+          <input id="u1421_input" type="submit" value="放入收藏夹" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1422" class="ax_default html_button">
+          <input id="u1422_input" type="submit" value="删除" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (表格) -->
+        <div id="u1423" class="ax_default table">
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1424" class="ax_default table_cell">
+            <img id="u1424_img" class="img " src="images/shopping_cart/u1401.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1425" class="ax_default table_cell">
+            <img id="u1425_img" class="img " src="images/shopping_cart/u1402.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1426" class="ax_default table_cell">
+            <img id="u1426_img" class="img " src="images/shopping_cart/u1403.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1427" class="ax_default table_cell">
+            <img id="u1427_img" class="img " src="images/shopping_cart/u1403.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1428" class="ax_default table_cell">
+            <img id="u1428_img" class="img " src="images/shopping_cart/u1403.png"/>
+            <div id="u1428_text" class="text ">
+              <p><span>￥45.00</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u1429" class="ax_default table_cell">
+            <img id="u1429_img" class="img " src="images/shopping_cart/u1406.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u1430" class="ax_default text_field1">
+          <input id="u1430_input" type="text" value="1" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1431" class="ax_default paragraph">
+          <img id="u1431_img" class="img " src="images/shopping_cart/u1408.png"/>
+          <div id="u1431_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">+</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1432" class="ax_default paragraph">
+          <img id="u1432_img" class="img " src="images/shopping_cart/u1408.png"/>
+          <div id="u1432_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1433" class="ax_default html_button">
+          <input id="u1433_input" type="submit" value="放入收藏夹" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1434" class="ax_default html_button">
+          <input id="u1434_input" type="submit" value="删除" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1435" class="ax_default shape">
+          <img id="u1435_img" class="img " src="images/shopping_cart/u1412.png"/>
+        </div>
+
+        <!-- Unnamed (复选框) -->
+        <div id="u1436" class="ax_default _复选框">
+          <label for="u1436_input" style="position: absolute; left: 0px;">
+            <div id="u1436_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </label>
+          <input id="u1436_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (复选框) -->
+        <div id="u1437" class="ax_default _复选框">
+          <label for="u1437_input" style="position: absolute; left: 0px;">
+            <div id="u1437_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </label>
+          <input id="u1437_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1438" class="ax_default paragraph">
+          <img id="u1438_img" class="img " src="images/shopping_cart/u1415.png"/>
+          <div id="u1438_text" class="text ">
+            <p><span>用友北京旗舰店</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1439" class="ax_default image1">
+          <img id="u1439_img" class="img " src="images/shopping_cart/u1439.png"/>
+        </div>
+
+        <!-- Unnamed (复选框) -->
+        <div id="u1440" class="ax_default _复选框">
+          <label for="u1440_input" style="position: absolute; left: 0px;">
+            <div id="u1440_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">全选</span></p>
+            </div>
+          </label>
+          <input id="u1440_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1441" class="ax_default html_button">
+          <input id="u1441_input" type="submit" value="删除" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1442" class="ax_default paragraph">
+          <img id="u1442_img" class="img " src="images/shopping_cart/u1442.png"/>
+          <div id="u1442_text" class="text ">
+            <p style="font-size:12px;"><span style="font-family:'微软雅黑';font-weight:400;">已选商品 </span><span style="font-family:'微软雅黑';font-weight:400;font-size:14px;color:#FF0000;">3</span><span style="font-family:'微软雅黑';font-weight:400;"> 件</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1443" class="ax_default paragraph">
+          <img id="u1443_img" class="img " src="images/shopping_cart/u1443.png"/>
+          <div id="u1443_text" class="text ">
+            <p style="font-size:12px;"><span style="font-family:'微软雅黑';font-weight:400;">合计(不含运费)：&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;font-size:14px;color:#FF0000;">¥</span><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;font-size:18px;color:#FF0000;">191.40</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1444" class="ax_default paragraph">
+          <img id="u1444_img" class="img " src="images/shopping_cart/u1444.png"/>
+          <div id="u1444_text" class="text ">
+            <p><span>￥37.80</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1445" class="ax_default paragraph">
+          <img id="u1445_img" class="img " src="images/shopping_cart/u1444.png"/>
+          <div id="u1445_text" class="text ">
+            <p><span>￥45.00</span></p>
+          </div>
+        </div>
+
+        <!-- 工具1 (图片) -->
+        <div id="u1446" class="ax_default image1" data-label="工具1">
+          <img id="u1446_img" class="img " src="images/list_of_goods/工具1_u1192.jpg"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1447" class="ax_default image1">
+          <img id="u1447_img" class="img " src="images/list_of_goods/u1194.jpg"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1448" class="ax_default paragraph">
+          <img id="u1448_img" class="img " src="images/shopping_cart/u1417.png"/>
+          <div id="u1448_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">dwt168mm水钻</span></p>
+          </div>
+        </div>
+
+        <!-- 工具2 (图片) -->
+        <div id="u1449" class="ax_default image1" data-label="工具2">
+          <img id="u1449_img" class="img " src="images/list_of_goods/工具2_u1193.jpg"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1450" class="ax_default paragraph">
+          <img id="u1450_img" class="img " src="images/shopping_cart/u1444.png"/>
+          <div id="u1450_text" class="text ">
+            <p><span>￥37.80</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1451" class="ax_default box_2">
+          <img id="u1451_img" class="img " src="images/high_value_selection/u889.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1452" class="ax_default paragraph">
+          <img id="u1452_img" class="img " src="images/shopping_cart/u1452.png"/>
+          <div id="u1452_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">回到首页</span></p>
+          </div>
+        </div>
+
+        <!-- 我的购物车>>> (组合) -->
+        <div id="u1453" class="ax_default" data-label="我的购物车&gt;&gt;&gt;" data-left="20" data-top="194" data-width="156" data-height="46">
+
+          <!-- Unnamed (文本框) -->
+          <div id="u1454" class="ax_default text_field1">
+            <input id="u1454_input" type="text" value="我的购物车" class="text_sketch"/>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1455" class="ax_default" data-left="136" data-top="210" data-width="40" data-height="15">
+
+            <!-- Unnamed (形状) -->
+            <div id="u1456" class="ax_default icon">
+              <img id="u1456_img" class="img " src="images/shopping_cart/u1456.png"/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u1457" class="ax_default icon">
+              <img id="u1457_img" class="img " src="images/shopping_cart/u1456.png"/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u1458" class="ax_default icon">
+              <img id="u1458_img" class="img " src="images/shopping_cart/u1456.png"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1459" class="ax_default paragraph">
+          <img id="u1459_img" class="img " src="images/shopping_cart/u1417.png"/>
+          <div id="u1459_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">6w电力泵</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1460" class="ax_default html_button">
+          <input id="u1460_input" type="submit" value="分享" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1461" class="ax_default html_button">
+          <input id="u1461_input" type="submit" value="移入收藏夹" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (提交按钮) -->
+        <div id="u1462" class="ax_default html_button">
+          <input id="u1462_input" type="submit" value="清除失效宝贝" class="text_sketch"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1463" class="ax_default image1" title="进入店铺主页" selectiongroup="店铺主页">
+          <img id="u1463_img" class="img " src="images/shopping_cart/u1463.png"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1464" class="ax_default image1" title="进入店铺主页" selectiongroup="店铺主页">
+          <img id="u1464_img" class="img " src="images/shopping_cart/u1463.png"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1465" class="ax_default image1" title="在移动端中打开该页面" selectiongroup="移动设备">
+          <img id="u1465_img" class="img " src="images/shopping_cart/u1465.png"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1466" class="ax_default image1" title="在移动端中打开该页面" selectiongroup="移动设备">
+          <img id="u1466_img" class="img " src="images/shopping_cart/u1465.png"/>
+        </div>
+      </div>
+
+      <!-- 页脚 (组合) -->
+      <div id="u1467" class="ax_default" data-label="页脚" data-left="66" data-top="1143" data-width="1201" data-height="171">
+
+        <!-- 底部导航 (矩形) -->
+        <div id="u1468" class="ax_default shape" data-label="底部导航">
+          <img id="u1468_img" class="img " src="images/online_mall/底部导航_u1159.png"/>
+          <div id="u1468_text" class="text ">
+            <p><span>公司简介&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 合作意向&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 联系我们&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 招标信息&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span></p>
+          </div>
+        </div>
+
+        <!-- 底部导航 (矩形) [footnote] -->
+        <div id="u1468_ann" class="annotation"></div>
+
+        <!-- 页脚友情连接 (矩形) -->
+        <div id="u1469" class="ax_default shape" data-label="页脚友情连接">
+          <img id="u1469_img" class="img " src="images/online_mall/底部导航_u1159.png"/>
+          <div id="u1469_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">阿里巴巴&nbsp; &nbsp;&nbsp; 网易&nbsp; &nbsp;&nbsp; 新浪&nbsp; &nbsp;&nbsp; 搜狐&nbsp; &nbsp;&nbsp; 京东&nbsp; &nbsp;&nbsp; 腾讯&nbsp; &nbsp;&nbsp; 金蝶&nbsp; &nbsp;&nbsp; 一号店&nbsp; &nbsp;&nbsp; 淘宝&nbsp; &nbsp;&nbsp; 天猫&nbsp; &nbsp;&nbsp; 天涯社区&nbsp; &nbsp;&nbsp; 康盛创想&nbsp; &nbsp;&nbsp; 聚划算&nbsp; &nbsp;&nbsp; 支付宝&nbsp; &nbsp;&nbsp; 财付通&nbsp; &nbsp;&nbsp; 当当网&nbsp; &nbsp;&nbsp; 苏宁易购&nbsp; &nbsp;&nbsp; 大中电器&nbsp; &nbsp;&nbsp; 国美电器&nbsp; &nbsp;&nbsp; 工商银行&nbsp; &nbsp;&nbsp; 建设银行</span></p>
+          </div>
+        </div>
+
+        <!-- 页脚友情连接 (矩形) [footnote] -->
+        <div id="u1469_ann" class="annotation"></div>
+
+        <!-- 版权信息 (矩形) -->
+        <div id="u1470" class="ax_default shape" data-label="版权信息">
+          <img id="u1470_img" class="img " src="images/online_mall/版权信息_u1161.png"/>
+        </div>
+
+        <!-- 版权信息 (矩形) [footnote] -->
+        <div id="u1470_ann" class="annotation"></div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1471" class="ax_default paragraph">
+          <img id="u1471_img" class="img " src="images/online_mall/u1162.png"/>
+          <div id="u1471_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">脉链版权所有</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1472" class="ax_default image1">
+          <img id="u1472_img" class="img " src="images/terminal_home/u105.png"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u1473" class="ax_default horizontal_line">
+          <img id="u1473_img" class="img " src="images/online_mall/u1164.png"/>
+        </div>
+      </div>
+
+      <!-- 你可能还会喜欢+推荐商品列表 (组合) -->
+      <div id="u1474" class="ax_default" data-label="你可能还会喜欢+推荐商品列表" data-left="20" data-top="833" data-width="1301" data-height="280">
+
+        <!-- Unnamed (组合) -->
+        <div id="u1475" class="ax_default" data-left="20" data-top="870" data-width="1301" data-height="243">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1476" class="ax_default shape">
+            <img id="u1476_img" class="img " src="images/shopping_cart/u1476.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1477" class="ax_default paragraph">
+            <img id="u1477_img" class="img " src="images/shopping_cart/u1477.png"/>
+            <div id="u1477_text" class="text ">
+              <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#FF0000;">￥698.00</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">天分级机TD-J3高效长效型</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">月销量：308</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1478" class="ax_default paragraph">
+            <img id="u1478_img" class="img " src="images/shopping_cart/u1477.png"/>
+            <div id="u1478_text" class="text ">
+              <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#FF0000;">￥788.00</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">rydse强力电钻机身</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">月销量：3055</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1479" class="ax_default paragraph">
+            <img id="u1479_img" class="img " src="images/shopping_cart/u1477.png"/>
+            <div id="u1479_text" class="text ">
+              <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#FF0000;">￥4698.00</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">2000w大功率供电器</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">月销量：200</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1480" class="ax_default paragraph">
+            <img id="u1480_img" class="img " src="images/shopping_cart/u1477.png"/>
+            <div id="u1480_text" class="text ">
+              <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#FF0000;">￥889.00</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">TSW-06锋利切割器</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">月销量：666</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1481" class="ax_default paragraph">
+            <img id="u1481_img" class="img " src="images/shopping_cart/u1477.png"/>
+            <div id="u1481_text" class="text ">
+              <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;color:#FF0000;">￥799.00</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">手握式快速打钉器</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">月销量：4087</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u1482" class="ax_default image1">
+            <img id="u1482_img" class="img " src="images/shopping_cart/u1482.jpg"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u1483" class="ax_default image1">
+            <img id="u1483_img" class="img " src="images/shopping_cart/u1483.jpg"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u1484" class="ax_default image1">
+            <img id="u1484_img" class="img " src="images/list_of_goods/u1351.jpg"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u1485" class="ax_default image1">
+            <img id="u1485_img" class="img " src="images/list_of_goods/u1366.jpg"/>
+          </div>
+        </div>
+
+        <!-- 你可能还会喜欢>>> (组合) -->
+        <div id="u1486" class="ax_default" data-label="你可能还会喜欢&gt;&gt;&gt;" data-left="21" data-top="833" data-width="182" data-height="28">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1487" class="ax_default paragraph">
+            <img id="u1487_img" class="img " src="images/shopping_cart/u1487.png"/>
+            <div id="u1487_text" class="text ">
+              <p><span>你可能还会喜欢</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1488" class="ax_default" data-left="163" data-top="839" data-width="40" data-height="15">
+
+            <!-- Unnamed (形状) -->
+            <div id="u1489" class="ax_default icon">
+              <img id="u1489_img" class="img " src="images/shopping_cart/u1456.png"/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u1490" class="ax_default icon">
+              <img id="u1490_img" class="img " src="images/shopping_cart/u1456.png"/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u1491" class="ax_default icon">
+              <img id="u1491_img" class="img " src="images/shopping_cart/u1456.png"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1492" class="ax_default box_2">
+          <img id="u1492_img" class="img " src="images/high_value_selection/u889.png"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u1493" class="ax_default image1">
+          <img id="u1493_img" class="img " src="images/shopping_cart/u1493.png"/>
+        </div>
+      </div>
+
+      <!-- 顶部导航栏 (组合) -->
+      <div id="u1494" class="ax_default" data-label="顶部导航栏" data-left="20" data-top="0" data-width="1301" data-height="41">
+
+        <!-- 顶部导航 (矩形) -->
+        <div id="u1495" class="ax_default shape" data-label="顶部导航">
+          <img id="u1495_img" class="img " src="images/shopping_cart/顶部导航_u1495.png"/>
+        </div>
+
+        <!-- 顶部导航 (矩形) [footnote] -->
+        <div id="u1495_ann" class="annotation"></div>
+
+        <!-- 商城首页—帮助中心 (组合) -->
+        <div id="u1496" class="ax_default" data-label="商城首页—帮助中心" data-left="829" data-top="12" data-width="422" data-height="19">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1497" class="ax_default paragraph">
+            <img id="u1497_img" class="img " src="images/shopping_cart/u1497.png"/>
+            <div id="u1497_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">商城首页</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1498" class="ax_default paragraph">
+            <img id="u1498_img" class="img " src="images/terminal_home/消息中心_u50.png"/>
+            <div id="u1498_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">消息中心[12]</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1499" class="ax_default paragraph">
+            <img id="u1499_img" class="img " src="images/terminal_home/收藏本站_u51.png"/>
+            <div id="u1499_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">【收藏本站】</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u1500" class="ax_default image1">
+            <img id="u1500_img" class="img " src="images/terminal_home/u54.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1501" class="ax_default paragraph">
+            <img id="u1501_img" class="img " src="images/shopping_cart/u1497.png"/>
+            <div id="u1501_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">客户服务</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1502" class="ax_default paragraph">
+            <img id="u1502_img" class="img " src="images/shopping_cart/u1497.png"/>
+            <div id="u1502_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">会员中心</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1503" class="ax_default paragraph">
+            <img id="u1503_img" class="img " src="images/shopping_cart/u1497.png"/>
+            <div id="u1503_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">帮助中心</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 您好—注册 (组合) -->
+        <div id="u1504" class="ax_default" data-label="您好—注册" data-left="76" data-top="11" data-width="234" data-height="19">
+
+          <!-- 会员中心 (矩形) -->
+          <div id="u1505" class="ax_default paragraph" data-label="会员中心">
+            <img id="u1505_img" class="img " src="images/shopping_cart/会员中心_u1505.png"/>
+            <div id="u1505_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">[登录] [免费注册]</span></p>
+            </div>
+          </div>
+
+          <!-- 会员中心 (矩形) [footnote] -->
+          <div id="u1505_ann" class="annotation"></div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1506" class="ax_default paragraph">
+            <img id="u1506_img" class="img " src="images/shopping_cart/u1506.png"/>
+            <div id="u1506_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">您好，欢迎来到脉链云!</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- logo+搜索 (组合) -->
+      <div id="u1507" class="ax_default" data-label="logo+搜索" data-left="100" data-top="69" data-width="1119" data-height="96">
+
+        <!-- 脉链云LOGO+口号+口号框 (组合) -->
+        <div id="u1508" class="ax_default" data-label="脉链云LOGO+口号+口号框" data-left="100" data-top="69" data-width="286" data-height="85">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1509" class="ax_default shape">
+            <img id="u1509_img" class="img " src="images/shopping_cart/u1509.png"/>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1510" class="ax_default" data-left="100" data-top="69" data-width="282" data-height="85">
+
+            <!-- Unnamed (图片) -->
+            <div id="u1511" class="ax_default image1">
+              <img id="u1511_img" class="img " src="images/terminal_home/u57.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1512" class="ax_default paragraph">
+              <img id="u1512_img" class="img " src="images/shopping_cart/u1512.png"/>
+              <div id="u1512_text" class="text ">
+                <p><span>来脉链，Buy it！</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 顶部搜索栏 (组合) -->
+        <div id="u1513" class="ax_default" data-label="顶部搜索栏" data-left="443" data-top="82" data-width="776" data-height="83">
+
+          <!-- 智能搜索 (矩形) -->
+          <div id="u1514" class="ax_default shape" data-label="智能搜索">
+            <img id="u1514_img" class="img " src="images/shopping_cart/智能搜索_u1514.png"/>
+          </div>
+
+          <!-- 智能搜索 (矩形) [footnote] -->
+          <div id="u1514_ann" class="annotation"></div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1515" class="ax_default shape">
+            <img id="u1515_img" class="img " src="images/shopping_cart/u1515.png"/>
+            <div id="u1515_text" class="text ">
+              <p><span>搜索</span></p>
+            </div>
+          </div>
+
+          <!-- 热门搜索 (矩形) -->
+          <div id="u1516" class="ax_default paragraph" data-label="热门搜索">
+            <img id="u1516_img" class="img " src="images/shopping_cart/热门搜索_u1516.png"/>
+            <div id="u1516_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">热门搜索：</span><span style="font-family:'微软雅黑';font-weight:400;color:#AEAEAE;">电锯&nbsp; 电泵&nbsp; 灯泡&nbsp; 螺丝刀&nbsp; 供电器&nbsp; 脉链集装箱</span></p>
+            </div>
+          </div>
+
+          <!-- 热门搜索 (矩形) [footnote] -->
+          <div id="u1516_ann" class="annotation"></div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1517" class="ax_default" data-left="445" data-top="82" data-width="76" data-height="19">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1518" class="ax_default paragraph">
+              <img id="u1518_img" class="img " src="images/shopping_cart/u1518.png"/>
+              <div id="u1518_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">商品</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1519" class="ax_default paragraph">
+              <img id="u1519_img" class="img " src="images/shopping_cart/u1519.png"/>
+              <div id="u1519_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">|</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1520" class="ax_default paragraph">
+              <img id="u1520_img" class="img " src="images/shopping_cart/u1518.png"/>
+              <div id="u1520_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">店铺</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1521" class="ax_default shape">
+            <img id="u1521_img" class="img " src="images/shopping_cart/u1521.png"/>
+            <div id="u1521_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">高级搜索</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u1522" class="ax_default image1 ax_default_hidden" style="display:none; visibility: hidden">
+        <img id="u1522_img" class="img " src="images/shopping_cart/u1522.png"/>
+      </div>
+    </div>
+  </body>
+</html>
